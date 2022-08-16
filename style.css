@@ -1,0 +1,165 @@
+@import url('http://fonts.cdnfonts.com/css/monument-extended');
+              
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+    
+}
+.container{
+    margin: 0;
+    padding: 3em 5em;
+}
+.navbar{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-wrapper-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-logo{
+    width: 119px;
+    height: 12.18px;
+    margin: 17px;
+}
+.navbar-logo img{
+    width: 119px;
+    height: 12.18px;
+    
+}
+.navbar-logo-partiotion{
+    content: '';
+    border: .5px solid #B4B4B4;
+    height: 35px;
+    /* margin: 15px; */
+}
+.nav-logo-shop{
+    margin: 15px;
+    /* margin-left: 25px; */
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 17px;
+}
+.navbar-wrapper-2{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-wrapper-2 a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+.navbar-wrapper-3{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar-wrapper-3 span{
+    margin: 8px;
+}
+.navbar-wrapper-3 span a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.header-title-wrapper{
+    width: 785px;
+    display: flex;
+    flex-direction: column;
+}
+.header-title{
+    font-family: 'Monument Extended', sans-serif;
+    width: 785px;
+    height: 156px;        
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 78px;                                    
+}
+.pricetag{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 29px;
+}
+.header-button-wrapper{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 20px;
+}
+.btn{
+    border: none;
+    outline: none;
+    background: rgba(59, 62, 66, 0.85);
+    border-radius: 40px;
+    padding: 20px 80px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.btn-light{
+    background: #E9E9E9;
+    color: #585B5E;
+    font-size: 20px;
+    line-height: 19px;
+    margin-left: 20px;
+}
+.description{
+    margin-top: 158px;
+    width: 783px;
+    height: 453px;
+    background: #E9E9E9;
+    padding: 60px;
+}
+.description-title{
+    /* padding: 65px; */
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 29px;
+}
+.description-content{
+    margin-top: 24px;
+    width: 397px;
+    height: 48px;   
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    opacity: 0.7;
+}
+.header-image-wrapper{
+    width: 70%;
+}
+.swiper-slide img{
+    width: 1000px;
+    height: 900px;
+   
+}
